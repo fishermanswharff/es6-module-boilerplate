@@ -35,7 +35,7 @@ gulp.task('scripts', function(){
       this.emit("end");
     })
     .pipe($.webpack(webpackConfig))
-    .pipe(isProduction ? $.uglify() : $.util.noop())
+    .pipe($.uglify())
     .pipe(gulp.dest(paths.destjs))
 });
 
