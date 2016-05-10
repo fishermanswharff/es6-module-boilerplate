@@ -6,6 +6,7 @@ logs
 results
 _dev
 /coverage/
+/dist/
 /node_modules/
 *.seed
 *.log
