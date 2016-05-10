@@ -5,6 +5,7 @@
   "repository": "https://github.com/fishermanswharff",
   "main": "index.js",
   "scripts": {
+    "watch": "gulp",
     "test": "gulp test"
   },
   "keywords": [
